@@ -1,4 +1,3 @@
-
 ---
 title: Hello World
 category: Site News
