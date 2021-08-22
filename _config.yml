@@ -1,0 +1,20 @@
+defaults:
+
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+permalink: /:title/
+
+plugins:
+  - jemoji
+
+emoji:
+  src: "https://github.githubassets.com/images/icons/"
+
+name: chrisbusse.com
+description: Chris Busse
+url: https://chrisbusse.com

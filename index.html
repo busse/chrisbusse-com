@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<!--
+<div class="row content1">
+	<div class="col-md-12">
+-->
+		{% for post in site.posts %}
+		    <p>
+		    	<!--<div class="dateline">{{ post.seq }} {{ post.location }}</div>-->
+		    	<div class="itemtitle"><a href="{{ post.url }}">{{ post.title }}</a></div>
+		    	<div class="dateline">Posted {{ post.date | date: '%B %d, %Y' }} in {{post.categories}}</div>
+		    	<div class="itemcontent">{{ post.excerpt }}</div>
+		    </p>
+		 {% endfor %}
+<!--
+	</div>
+</div>
+-->
